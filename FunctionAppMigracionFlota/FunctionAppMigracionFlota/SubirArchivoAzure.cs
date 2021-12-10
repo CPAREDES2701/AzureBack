@@ -34,6 +34,10 @@ namespace FunctionAppMigracionFlota
             {
                 AccountKey = "QjD2WpYWhys46KuSikF3GQVmJnyQeWQYy+bplsQbdp6Jl5b5S0BrAA+I3O3CynFlhJg9hAa785fiQzsdBoVh7Q==";
             }
+            else
+            {
+                AccountKey = "tImUXDzGiSNNf2Tkmy0q4fL9Hax01pzhkwoJnZELZ9lNimCDeIUnHSbtZsEHURAxHw0ua1tIFGGQY6EFrs68Fg==";
+            }
 
             AzureStorageConfig ac = new AzureStorageConfig();
             ac.AccountKey = AccountKey;
