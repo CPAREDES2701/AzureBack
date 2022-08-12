@@ -1,0 +1,8 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "sqldb_connection": "Server=tcp:srv-db-east-us-pesca05.database.windows.net,1433;Initial Catalog=db_ss_atc_qas;Persist Security Info=False;User ID=userdbowner;Password=$P4ssdbowner01#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  }
+}
