@@ -22,7 +22,7 @@ dist/
 # Maven
 target/
 dist/
-.vs/
+FunctionAppMigracionFlota/.vs/
 packages/
 bin/
 obj/
