@@ -36,7 +36,7 @@ namespace FunctionAppMigracionFlota
                 using (var streamWriter = new StreamWriter(serviceToken.GetRequestStream()))
                 {
                     //string json = "grant_type=client_credentials&client_id=84ba9e14-690c-4a35-b08b-c2f365dff658&client_secret=MGx7Q~Sj0~0xDTheDWvzObvBSvPz~OrVdcLIq&scope=https://graph.microsoft.com/.default";
-                    string json = "grant_type=client_credentials&client_id=9646306c-045b-432b-99fe-6bc4a8d9c363&client_secret=tyy7Q~SwIaRKWm-V9ovqgeG-jUnCoYBA4yF6O&scope=https://graph.microsoft.com/.default";
+                    string json = "grant_type=client_credentials&client_id=9646306c-045b-432b-99fe-6bc4a8d9c363&client_secret=HRR8Q~ifGn6KGtZ3~YOJ7HdtM5~SfU_t5fyq3cGk&scope=https://graph.microsoft.com/.default";
                     streamWriter.Write(json);
                 }
                 WebResponse response = serviceToken.GetResponse();
